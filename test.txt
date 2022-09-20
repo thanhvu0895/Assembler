@@ -1,0 +1,28 @@
+     add $at, $v0, $v1
+     addu $a0, $a1, $a2
+     sub $a3, $t0, $t1
+     subu $t2, $t3, $t4
+     addi $t5, $t6, 100
+     addiu $t7, $s0, 100
+     and $s1, $s2, $s3
+     or $s4, $s5, $s6
+goop:nor $s7, $t8, $t9
+     andi $k0, $k1, 100
+     ori $gp, $sp, 100
+     sll $fp, $ra, 10
+     srl $at, $v0, 10
+     lw $v1, 100($a0)
+     sw $a1, 100($a2)
+     lui $a3, 100
+     beq $t0, $t1, loop
+     bne $t2, $t3, toop
+     slt $t4, $t5, $t6
+loop:sltu $t7, $s0, $s1
+     slti $s2, $s3, 100
+     sltiu $s4, $s5, 100
+     jr $ra
+toop:j goop
+     jal exit
+     adds $at, $v0, $v1
+     beq $v0, $v1, loop 
+exit:

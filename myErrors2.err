@@ -1,0 +1,21 @@
+Unexpected error on line 1: Instruction contains more tokens than expected.
+Unexpected register $k0 on line 2
+Invalid reg 100 on line 3
+Unexpected error on line 4: Instruction contains more tokens than expected.
+Unexpected register $at on line 5
+Invalid reg 100 on line 6
+Unexpected error on line 7: Instruction contains more tokens than expected.
+Unexpected register $a3 on line 8
+Invalid reg loop on line 9
+Unexpected error on line 10: Instruction contains more tokens than expected.
+Unexpected register $t6 on line 11
+Invalid reg 100 on line 12
+Unexpected error on line 13: Instruction contains more tokens than expected.
+Unexpected register $s5 on line 14
+Unexpected error on line 15: Instruction contains more tokens than expected.
+Unexpected register $k1 on line 16
+Invalid reg 100 on line 17
+Unexpected error on line 18: Instruction contains more tokens than expected.
+Invalid reg $at on line 19
+Unexpected error on line 20: Instruction contains more tokens than expected.
+Invalid reg $feaf on line 21
