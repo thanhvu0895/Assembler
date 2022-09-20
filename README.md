@@ -1,9 +1,9 @@
-Daniel Alspector-Kelly, Thanh Vu
+# Assembler PP
 
-Assembler PP
+Contributor: Daniel Alspector-Kelly, Thanh Vu
 
-This program acts as a assembler, turning MIPS Instructions into machine code.
-It is run from a bash terminal, using a make file to compile everything properly.
+This program acts as a assembler, turning MIPS Instructions into machine code.  
+It is run from a bash terminal, using a make file to compile everything properly.  
 
 Type 'make' to compile the program into an executeable named disassembler by default, and then the program can be run from the executable using name [ filename ] [ 0|1 ] where "name" is the name of the executable, "filename" is an optional file containing the input to read, and "0" or "1" may be used to specify that debugging should be turned off or on, respectively. 
 If no filename is provided, the program reads its input from stdin.
